@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main (){
+    int n; // row
+    int m; // collumb
+    cout<<"n : "; cin>>n;
+    cout<<"m : "; cin>>m;
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=m; j++){
+            cout<<i<<" ";
+        }
+
+        cout<<endl;
+    }
